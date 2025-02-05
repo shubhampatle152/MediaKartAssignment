@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0 " >
+    
+<title> collect Chocolate Game</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Starting Section Of Game  -->
+    <div id="First-Section">
+    <h1 id="First-Section-Text-container">
+        Collect The Chocolates In<br>The Box And Wine The Game!
+        </h1>
+    <img  id="First-Section-Chocolate" src="assets/chocolate.png" alt="chocolateImage">
+    </div>
+        
+        <button id="play-button">Play Game</button>
+    
+
+      <!-- Main Game Container  -->
+        <div id="game-container">
+            <div class="score-box">
+                Chocolates: <span id="counter">0</span>
+            </div>
+            <div id="Box-container">
+            </div>
+        </div>
+
+ <!-- Congratulations Screen after win  -->
+    <div id="congrats-screen">
+    <span id="congrats-message">Congratulations You Win 5 Chocolates</span>
+    </div>
+
+  
+  <!-- Restart Section  -->
+        <div id="Restart-screen">
+            <button id="re-Start">Restart Game</button>
+        </div>
+
+<!-- Js File Link  -->
+<script src="script.js"></script>
+<!-- cdn Link for Confetti  -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</body>
+</html>
